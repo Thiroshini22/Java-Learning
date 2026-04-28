@@ -1,0 +1,17 @@
+class Chotto
+{
+    String name;
+    int id;
+    Chotto (String name,int id)
+    {
+        this.name=name;
+        this.id=id;
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Chotto obj=new Chotto("Thiro",175);
+		System.out.println("Name : "+obj.name +"  id :"+obj.id);
+	}
+}
