@@ -1,0 +1,25 @@
+class wapp
+{
+    void message()
+    {
+        System.out.println("Good Morning");
+    }
+    void message(String text)
+    
+    {
+        System.out.println("Good morning" + text);
+    }
+    void messsage(int n)
+    {
+        System.out.println(n);
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		wapp obj = new wapp();
+		obj.message();
+		obj.message(" Suvetha ");
+// 		obj.message(10);
+	}
+}
