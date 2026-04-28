@@ -1,0 +1,26 @@
+class Animal
+{
+    void eat()
+    {
+        System.out.println("Animal is Eating");
+    }
+}
+class Dog extends Animal
+{
+    void eat()
+    {
+        System.out.println("Dog is Eating");
+    }
+    void Display()
+    {
+        eat();
+        super.eat();
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Dog obj=new Dog();
+		obj.Display();
+	}
+}
