@@ -1,0 +1,15 @@
+public class Main
+{
+    void display()
+    {
+        System.out.println("Hii");
+    }
+    void show()
+    {
+        this.display();
+    }
+	public static void main(String[] args) {
+		Main obj=new Main();
+		obj.show();
+	}
+}
