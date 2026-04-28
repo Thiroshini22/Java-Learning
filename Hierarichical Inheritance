@@ -1,0 +1,43 @@
+class Vasuvethiro
+{
+    void paavai ()
+    {
+        System.out.println("CSE");
+    }
+}
+class Suvetha extends Vasuvethiro
+{
+    void display()
+    {
+        System.out.println("Topper");
+    }
+}
+class Thiroshini extends Suvetha
+{
+    void display2()
+    {
+        System.out.println("Chief");
+    }
+}
+class Vasavi extends Thiroshini
+{
+    void display3()
+    {
+        System.out.println("Singer");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	
+		Vasavi obj=new Vasavi();
+		obj.display3();
+		obj.display2();
+		Thiroshini obj1 = new Thiroshini();
+		obj1.display2();
+		obj1.display();
+		Suvetha obj3=new Suvetha();
+		obj3.display();
+		obj3.paavai();
+	}
+}
