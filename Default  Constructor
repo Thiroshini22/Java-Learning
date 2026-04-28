@@ -1,0 +1,11 @@
+public class Main
+{
+    Main()
+    {
+        System.out.println("Hii...");
+    }
+	public static void main(String[] args) {
+		Main obj=new Main();
+// 		obj.Main();
+	}
+}
