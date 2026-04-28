@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int n=5,i,k,j;
+		for(i=n;i>=1;i--)
+		{
+		    for(k=i;k<n;k++)
+		    {
+		        System.out.print(" ");
+		    }
+		    for(j=1;j<=2*i-i;j++)
+		    {
+		        System.out.print("* ");
+		    }
+		    System.out.println();
+		}
+	}
+}
