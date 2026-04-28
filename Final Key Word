@@ -1,0 +1,30 @@
+final class LibraryRules {
+  final  int MAX_BOOKS = 10;
+    final void showRules() {
+        System.out.println("1. Each member can borrow up to " + MAX_BOOKS + " books.");
+        System.out.println("2. Books must be returned within 14 days.");
+        System.out.println("3. Handle books carefully!");
+    }
+}
+class Member {
+    final String memberName;
+    Member(String name) {
+        this.memberName = name;
+    }
+
+    void borrowBook() {
+        System.out.println(memberName + " borrowed a book successfully.");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        LibraryRules rules = new LibraryRules();
+        rules.showRules(); 
+        Member m1 = new Member("Suvetha");
+        m1.borrowBook();
+        
+        Member m2=new Member("Vasavi");
+        m2.borrowBook();  
+      
+    }
+}
