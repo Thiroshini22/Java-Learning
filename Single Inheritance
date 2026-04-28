@@ -1,0 +1,22 @@
+class tree
+{
+    void display()
+    {
+        System.out.println("Mango");
+    }
+}
+class birds  extends tree
+{
+    void display2()
+    {
+        System.out.println("KOOKOO");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    birds obj=new birds();
+	    obj.display2();
+	    obj.display();
+		}
+}
