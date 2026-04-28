@@ -1,0 +1,16 @@
+class Suvetha
+{
+    void display()
+    {
+        System.out.println("She is a good Girl");
+    }
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		Suvetha obj=new Suvetha();
+		obj.display();
+	}
+}
