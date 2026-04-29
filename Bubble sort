@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int arr[]={ 12,6,1,2,3};
+		int i,j,temp;
+	    for(i=0;i<arr.length;i++)
+	    {
+	        for(j=i+1;j<arr.length;j++)
+	        {
+	            if(arr[i]<arr[j])//if(arr[i]<arr[j]) descenting 
+	            {
+	                temp=arr[i];
+	                arr[i]=arr[j];
+	                arr[j]=temp;
+	            }
+	        }
+	    }
+	    for(int X:arr)
+	    {
+	        System.out.print(X+" ");
+	    }
+	    
+	
+}
+}
